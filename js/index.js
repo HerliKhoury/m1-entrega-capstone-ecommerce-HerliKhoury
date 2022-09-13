@@ -19,7 +19,7 @@ function createCard(produto){
     cardDiv.classList.add("cardContainer");
     categoriaProduto.classList.add("category");
     addCarrinho.classList.add("addCarrinho");
-    
+
     cardDiv.append(
         imgProduto, 
         categoriaProduto,
@@ -32,7 +32,7 @@ function createCard(produto){
     return cardDiv;
 }
 
-let produtoEx ={
+/* let produtoEx ={
     id: 11,
     img: "./img/axes/axe_0.jpeg",
     nameItem: "Machado de caminhada",
@@ -45,4 +45,20 @@ let produtoEx ={
 
 let vitrine = document.querySelector(".vitrine");
 console.log(vitrine, "oi");
-vitrine.appendChild(createCard(produtoEx));
+vitrine.appendChild(createCard(produtoEx)); */
+
+function apresentaTodosItens(axeArr, swordArr, knifeArr){
+    let vitrine = document.querySelector(".vitrine");
+    
+    for(let i = 0; i < axeArr.length; i++){
+        vitrine.appendChild(createCard(axeArr[i]));
+    } 
+    for(let j = 0; j < swordArr.length; j++){
+        vitrine.appendChild(createCard(swordArr[j]));
+    }
+    for(let k = 0; k < knifeArr.length; k++){
+        vitrine.appendChild(createCard(knifeArr[k]));
+    }
+}
+
+apresentaTodosItens(axes, swords, knives);

@@ -41,6 +41,7 @@ display: flex;
 flex-wrap: wrap;
 width: 850px;
 margin-top: 50px;
+justify-content: space-between;
 }
 
 .carrinho{
@@ -62,6 +63,7 @@ main{
     width: 256px;
     height: 380px;
     border: 2px solid #F5F5F5;
+    margin-bottom: 35px;
     background-color: aqua;
 }
 
@@ -80,6 +82,7 @@ main{
 
 .cardContainer span{
     margin-left: 10px;
+    font-size: 14px;
 }
 
 .cardContainer strong{

@@ -1,7 +1,7 @@
 const swords = [
   {
     id: 1,
-    img: "../img/swords/sword_0.jpeg",
+    img: "./img/swords/sword_0.jpeg",
     nameItem: "Espada do Rei",
     description:
       "Seja belo e imponente ao mesmo tempo, a Espada do Rei garante os dois.",
@@ -11,7 +11,7 @@ const swords = [
   },
   {
     id: 2,
-    img: "../img/swords/sword_1.jpeg",
+    img: "./img/swords/sword_1.jpeg",
     nameItem: "Sabre Barba Negra",
     description:
       "Um marujo bem preparado sempre está com seu sabre na cintura. O sabre Bar...",
@@ -21,7 +21,7 @@ const swords = [
   },
   {
     id: 3,
-    img: "../img/swords/sword_2.jpeg",
+    img: "./img/swords/sword_2.jpeg",
     nameItem: "Ferroada",
     description:
       "A espada de Bilbo e Frodo. Se ilumina com uma luz azul forte na presença de orcs.",
@@ -31,7 +31,7 @@ const swords = [
   },
   {
     id: 4,
-    img: "../img/swords/sword_3.jpeg",
+    img: "./img/swords/sword_3.jpeg",
     nameItem: "Glamdrin",
     description:
       "A espada de Gandalf, forjada pelos Valar. You cannot wish for a finner blade.",
@@ -41,7 +41,7 @@ const swords = [
   },
   {
     id: 5,
-    img: "../img/swords/sword_4.jpeg",
+    img: "./img/swords/sword_4.jpeg",
     nameItem: "Inquisidora",
     description:
       "Abençoada pelo papa no século V. Livre se dos pagãos com esta lâmina abençoada.",
@@ -51,7 +51,7 @@ const swords = [
   },
   {
     id: 6,
-    img: "../img/swords/sword_5.jpeg",
+    img: "./img/swords/sword_5.jpeg",
     nameItem: "Espada do Guardião",
     description:
       "Grande e resistente a ferrugem. A Espada do Guardião foi feita para te todo tipo...",
@@ -61,7 +61,7 @@ const swords = [
   },
   {
     id: 7,
-    img: "../img/swords/sword_6.jpeg",
+    img: "./img/swords/sword_6.jpeg",
     nameItem: "Katana",
     description:
       "Esta espada super resistente consegue cortar uma folha e um homem ao meio.",
@@ -71,7 +71,7 @@ const swords = [
   },
   {
     id: 8,
-    img: "../img/swords/sword_7.jpeg",
+    img: "./img/swords/sword_7.jpeg",
     nameItem: "Facão do explorador",
     description:
       "Usada como ferramenta assim como arma. Suprirá qualquer necessidade em uma aventura.",
@@ -81,7 +81,7 @@ const swords = [
   },
   {
     id: 9,
-    img: "../img/swords/sword_8.jpeg",
+    img: "./img/swords/sword_8.jpeg",
     nameItem: "Espada do Conde",
     description:
       "Empunhada em duas mãos a espada do conde é expecialista em derrubar alvos que se aproximam.",
@@ -91,7 +91,7 @@ const swords = [
   },
   {
     id: 10,
-    img: "../img/swords/sword_9.jpeg",
+    img: "./img/swords/sword_9.jpeg",
     nameItem: "Espada do Principe",
     description:
       "Não muito testada em batalha, mas linda de morrer.",
@@ -104,7 +104,7 @@ const swords = [
 const axes = [
   {
     id: 11,
-    img: "../img/axes/axe_0.jpeg",
+    img: "./img/axes/axe_0.jpeg",
     nameItem: "Machado de caminhada",
     description:
       "Machado de caminhada de Gimli, usado como apoio e como arma.",
@@ -114,7 +114,7 @@ const axes = [
   },
   {
     id: 12,
-    img: "../img/axes/axe_1.jpeg",
+    img: "./img/axes/axe_1.jpeg",
     nameItem: "Machado barbado",
     description:
       "Machado barbado de Gimli. Leve e resistente, corta madeira e orcs.",
@@ -124,7 +124,7 @@ const axes = [
   },
   {
     id: 13,
-    img: "../img/axes/axe_2.jpeg",
+    img: "./img/axes/axe_2.jpeg",
     nameItem: "Machado de batalha",
     description:
       "Machado de batalha de Gimli, usado em batalhas para destruir muitos orcs.",
@@ -134,7 +134,7 @@ const axes = [
   },
   {
     id: 14,
-    img: "../img/axes/axe_3.jpeg",
+    img: "./img/axes/axe_3.jpeg",
     nameItem: "Machado viking",
     description:
       "Forjado em aço bretão muito resistente e com detalhes de runas em relevo.",
@@ -144,7 +144,7 @@ const axes = [
   },
   {
     id: 15,
-    img: "../img/axes/axe_4.jpeg",
+    img: "./img/axes/axe_4.jpeg",
     nameItem: "Machado viking plus",
     description:
       "Forjado em aço bretão muito resistente e com detalhes de runas em relevo.",
@@ -154,7 +154,7 @@ const axes = [
   },
   {
     id: 16,
-    img: "../img/axes/axe_5.jpeg",
+    img: "./img/axes/axe_5.jpeg",
     nameItem: "Machado de lenha",
     description:
       "Machado robusto de 2 mãos, forjado em aço. Inclui bainha.",
@@ -164,7 +164,7 @@ const axes = [
   },
   {
     id: 17,
-    img: "../img/axes/axe_6.jpeg",
+    img: "./img/axes/axe_6.jpeg",
     nameItem: "Machado de Kratos",
     description:
       "Machado Leviatã, o machado mágico de Kratos o Deus da guerra.",
@@ -177,7 +177,7 @@ const axes = [
 const knives = [
   {
     id: 18,
-    img: "../img/knives/knive_0.jpeg",
+    img: "./img/knives/knife_0.jpeg",
     nameItem: "Faca de caça I",
     description:
       "Lâmina 15 cm, cabo preto, forjada em aço. Inclui bainha preta.",
@@ -187,7 +187,7 @@ const knives = [
   },
   {
     id: 19,
-    img: "../img/knives/knive_1.jpeg",
+    img: "./img/knives/knife_1.jpeg",
     nameItem: "Faca de caça II",
     description:
       "Lâmina 10 cm, cabo de madeira, forjada em aço. Inclui bainha.",
@@ -197,7 +197,7 @@ const knives = [
   },
   {
     id: 20,
-    img: "../img/knives/knive_2.jpeg",
+    img: "./img/knives/knife_2.jpeg",
     nameItem: "Faca de caça GVDV",
     description:
       "Lâmina 10 cm, cabo de madeira, forjada em aço. Inclui bainha em couro.",
@@ -207,7 +207,7 @@ const knives = [
   },
   {
     id: 21,
-    img: "../img/knives/knive_3.jpeg",
+    img: "./img/knives/knife_3.jpeg",
     nameItem: "Faca Bowie",
     description:
       "Lâmina 20 cm, forjada em aço. Boa para caça, pesca, churrasco.",
@@ -217,7 +217,7 @@ const knives = [
   },
   {
     id: 22,
-    img: "../img/knives/knive_4.jpeg",
+    img: "./img/knives/knife_4.jpeg",
     nameItem: "Faca em damasco",
     description:
       "Lâmina 7 cm, forjada em aço damasco. Boa para desossa e limpar peixes.",
