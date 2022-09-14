@@ -36,7 +36,6 @@ nav div{
 }
 
 .vitrine{
-background-color: red;
 display: flex;
 flex-wrap: wrap;
 width: 850px;
@@ -45,11 +44,11 @@ justify-content: space-between;
 }
 
 .carrinho{
-background-color: green;
 margin-left: 50px;
 display: flex;
 width: 300px;
 margin-top: 50px;
+flex-direction: column;
 }
 
 main{
@@ -64,7 +63,6 @@ main{
     height: 380px;
     border: 2px solid #F5F5F5;
     margin-bottom: 35px;
-    background-color: aqua;
 }
 
 .cardContainer img{
@@ -78,6 +76,14 @@ main{
     display: block;
     width: max-content;
     margin-left: 10px;
+    padding: 5px;
+}
+
+.category:hover{
+    background-color: white;
+    color: #37268C;  
+    border: 2px solid  #37268C;
+    font-weight: bold;
 }
 
 .cardContainer span{
@@ -99,4 +105,111 @@ main{
 
 .cardContainer:hover{
     border: solid #37268C 3px;
+}
+
+input{
+    height: 30px;
+    margin: 0;
+    width: 70%;
+    color: black;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+button{
+    height: 30px;
+    margin: 0;
+    color: white;
+    background-color: #37268C;
+    border: none;
+    width: 27%;
+}
+
+.carrinhoTitle{
+    color: white;
+    background-color: #37268C;
+    height: 30px;
+    border: none;
+    margin-top: 20px;  
+    font-size: 16px;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.vazio{
+    width: 100%;
+    height: 200px;
+    background-color: #F5F5F5;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vazio span{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.vazio h3{
+    margin-bottom: 0;
+}
+
+.cardCarrinho{
+    background-color: #F5F5F5;
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+.cardCarrinho img{
+    height: 100px;
+    width: 90px;
+    margin: auto;
+    margin-left: 15px;
+}
+
+.infoCarrinho{
+    display: block;
+    margin-left: 10px;
+}
+
+.infoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin: auto 0;
+    width: 195px;
+}
+
+.endDiv span{
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.endDiv div{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.remove:hover{
+    text-decoration: underline;
+}
+
+.boldPurple{
+    font-weight: bold;
+    color: #37268C;
+}
+
+.navItem:hover{
+    font-weight: bold;
+    color: #37268C; 
 }

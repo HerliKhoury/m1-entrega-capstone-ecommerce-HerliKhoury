@@ -23,16 +23,29 @@
                 <span style="font-size: larger;">BattleForged</span>
             </div>
             <div>
-                <span>Todos</span>
-                <span>Espadas</span>
-                <span>Machados</span>
-                <span>Facas</span>
+                <span class="navItem" id="todos">Todos</span>
+                <span class="navItem" id="espadas">Espadas</span>
+                <span class="navItem" id="machados">Machados</span>
+                <span class="navItem" id="facas">Facas</span>
             </div>
         </nav>
     </header>
     <main class="container">
         <div class="vitrine"></div>
-        <div class="carrinho"></div>
+        <div class="carrinho">
+            <div >
+                <form id="pesquisar">
+                    <input placeholder="Digite aqui sua pesquisa" type="text">
+                    <button type="submit">Pesquisar</button>
+                </form>
+            </div>
+            <span class="carrinhoTitle">Carrinho de compras</span>
+            <div id="carrinhoToggle">
+            </div>
+            <div class="endDiv">
+
+            </div>
+        </div>
     </main>
     
 </body>
